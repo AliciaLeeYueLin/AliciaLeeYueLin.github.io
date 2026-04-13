@@ -194,6 +194,11 @@
             justify-content: flex-start;
             margin-left: 20px;
         }
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
         .card-img-top {
             width: 100%;
             height: 330px;
@@ -272,6 +277,16 @@
         ul {
             margin-top: 20px;
         }
+        footer p {
+            margin: 0;
+        }
+        #project{
+            height: 100vh;
+            
+        }
+        #favourite{
+            height: 85vh;
+        }
     </style>
 
     <body>
@@ -286,6 +301,7 @@
                         <li class="nav-item"><a class="nav-link p-2" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link p-2" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link p-2" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="#project">Project</a></li>
                         <li class="nav-item"><a class="nav-link p-2" href="#hobby">Hobby</a></li>
                         <li class="nav-item"><a class="nav-link p-2" href="#favourite">Favourite</a></li>
                         <li class="nav-item"><a class="nav-link p-2" href="#movies">Movies</a></li>
@@ -348,7 +364,7 @@
         <section id="education">
             <h1 class="text-center mt-5">My Education Journey</h1>
             <div class="carousel-container">
-                <img src="me_png.png" class="overlay-image" alt="" />
+                <img src="asset/me_png.png" class="overlay-image" alt="" />
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -382,11 +398,25 @@
                 </div>
             </div>
         </section>
+        <section id="project">
+            <h1 class="text-center m-5">My Project</h1>
+            <div class="d-flex justify-content-center">
+                <div class="card" style="width: 20rem">
+                    <img src="asset/my_project.png" class="card-img-top" alt="Harry Potter website preview" />
 
+                    <div class="card-body">
+                        <h3>Harry Potter Website</h3>
+                        <p>A themed website inspired by the Harry Potter world. Includes character pages, magical design, and interactive elements.</p>
+
+                        <a href="https://alicialeeyuelin.github.io/website-of-interest/" class="btn btn-danger">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="hobby">
             <h1 class="text-center mt-5">Hobby</h1>
             <h3 class="text-center">
-                My hobby is drawing cause it helps me to train my patients while drawing the detail and I always feels so sastify to complete one drawing. Honestly I prefer traditional drawing method rather than modern drawing method, but currently I'm starting to learn more about digital drawing.
+                My hobby is drawing cause it helps me build patience and attention to the detail and I always feels so sastified to complete a drawing. Honestly I prefer traditional drawing method rather than modern drawing method, but currently I'm starting to learn more about digital drawing.
             </h3>
             <br />
             <div class="text-center">
@@ -395,28 +425,28 @@
             <div id="myContent">
                 <div class="row g-4">
                     <div class="col-6 col-lg-3 d-flex justify-content-center">
-                        <img src="my_drawing_1.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_1.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                     <div class="col-6 col-lg-3 d-flex justify-content-center" style="object-fit: cover">
-                        <img src="my_drawing_2.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_2.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                     <div class="col-6 col-lg-3 d-flex justify-content-center" style="object-fit: cover">
-                        <img src="my_drawing_3.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_3.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                     <div class="col-6 col-lg-3 d-flex justify-content-center" style="object-fit: cover">
-                        <img src="my_drawing_4.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_4.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                     <div class="col-6 col-lg-3 d-flex justify-content-center" style="object-fit: cover">
-                        <img src="my_drawing_5.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_5.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                     <div class="col-6 col-lg-3 d-flex justify-content-center" style="object-fit: cover">
-                        <img src="my_drawing_6.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_6.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                     <div class="col-6 col-lg-3 d-flex justify-content-center" style="object-fit: cover">
-                        <img src="my_drawing_7.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_7.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                     <div class="col-6 col-lg-3 d-flex justify-content-center" style="object-fit: cover">
-                        <img src="my_drawing_8.jpg" alt="" width="250px" />
+                        <img src="asset/my_drawing_8.jpg" alt="My pencil portrait drawing" width="250px" />
                     </div>
                 </div>
             </div>
@@ -569,6 +599,8 @@
             <div class="container-fluid text-center p-3">
                 <h6>&copy;My Portfolio 2026 | Privacy Policy | Feedback & Reporting</h6>
 
+                <h1>Contact Me</h1>
+                <p>Email: example@gmail.com</p>
                 <p><i class="bi bi-instagram"></i> @alicialeeyuelin <i class="bi bi-telephone"></i> 012 478 6387</p>
             </div>
         </footer>
