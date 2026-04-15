@@ -106,7 +106,7 @@
                 font-weight: 400;
                 font-style: normal;
             }
-           
+
             .lexend-giga {
                 font-family: "Lexend Giga", sans-serif;
                 font-optical-sizing: auto;
@@ -210,7 +210,7 @@
             /* IMAGE */
             .slide img {
                 float: left;
-                padding: auto;
+                padding-bottom: -100px;
                 max-width: 80%;
                 height: auto;
             }
@@ -262,6 +262,7 @@
             }
             .card2 {
                 transition: transform 0.3s ease;
+                
                 transform: scale(0.7);
             }
 
@@ -323,6 +324,7 @@
                 transform: translateY(-10px);
                 box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
             }
+           
         </style>
     </head>
     <body>
@@ -388,7 +390,7 @@
 
         <div id="home" class="img-fluid h-150px position-relative">
             <img class="img-fluid w-100" style="height: 100vh; object-fit: cover" src="https://contentful.harrypotter.com/usf1vwtuqyxm/71J6YPxNauhFABbjHpGluJ/631bd6980b0a430d5b476ef331abb2b5/release_1_hogwarts.png" />
-            <h2 class="position-absolute text-white fw-bold" style="top: 5%; left: 4%; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); font-size: 5rem">
+            <h2 class="position-absolute text-white fw-bold" style="top: 5%; left: 4%; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);  font-size: 8vw;">
                 Welcome to our webpage <br />
                 Folllow us to the world of Harry Potter
             </h2>
@@ -698,7 +700,7 @@
                                 <div class="card-content">
                                     <div class="x-1">
                                         <h2>Cursed Child</h2>
-                                        <p>Harry’s son Albus travels back in time with Scorpius Malfoy, changing history and creating dangerous new timelines that threaten the wizarding world.</p>
+                                        <p>Harry's son Albus travels back in time with Scorpius Malfoy, changing history and creating dangerous new timelines that threaten the wizarding world.</p>
                                     </div>
                                     <img src="assets/book8.jpg" class="x-2" />
                                 </div>
@@ -875,7 +877,8 @@
                                         <h2 class="quicksand">Harry Potter and the Order of the Phoenix</h2>
                                         <hr />
                                         <p class="quicksand">
-                                            The story returns to Hogwarts, where the final Horcruxes must be destroyed. Harry uncovers hidden truths about his past and his connection to Voldemort. As allies gather, the Battle of Hogwarts erupts, bringing massive losses and heroic sacrifices. In the end, Harry faces Voldemort in a decisive confrontation that determines the fate of the wizarding world.
+                                            The story returns to Hogwarts, where the final Horcruxes must be destroyed. Harry uncovers hidden truths about his past and his connection to Voldemort. As allies gather, the Battle of Hogwarts erupts, bringing massive losses and heroic sacrifices. In the
+                                            end, Harry faces Voldemort in a decisive confrontation that determines the fate of the wizarding world.
                                         </p>
                                         <h3 class="quicksand">Cast</h3>
                                         <p class="quicksand">Dominic McLaughlin (Harry), Arabella Stanton (Hermione), Alastair Stout (Ron), Nick Frost (Hagrid), John Lithgow (Dumbledore), Janet McTeer (McGonagall), and Paapa Essiedu (Snape)</p>
@@ -892,56 +895,59 @@
             </section>
 
             <!-- Character -->
-            <div id="character"><h2>Character</h2></div>
-            <div class="slider">
-                <div class="slides vh-100">
-                    <div class="slide" style="display: flex; height: 100vh; width: 100vw; background-color: rgb(67, 11, 3); align-items: center">
-                        <div class="slider">
-                            <img src="assets/Harry-Potter-PNG-Background-removebg-preview.png" />
-                            <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); color: #d4af37">
-                                <h1 class="fs-1 lexend-giga text-warning">Harry Potter</h1>
-                                <hr class="border-5 text-warning" />
-                                <p class="medievalsharp-regular fs-2 text-warning" style="font-size: 16px">
-                                    Student of Gryffindor.Harry Potter is a brave young wizard with a lightning-shaped scar. He is known for his courage, loyalty, and strong sense of justice as he faces challenges and protects his friends from danger.
-                                </p>
+            <section id="character">
+                <h2>Character</h2>
+                <div class="slider">
+                    <div class="slides vh-100">
+                        <div class="slide" style="display: flex; width: 100vw; background-color: rgb(67, 11, 3); align-items: center">
+                            <div class="slider">
+                                <img src="assets/Harry-Potter-PNG-Background-removebg-preview.png" />
+                                <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); color: #d4af37">
+                                    <h1 class="fs-1 lexend-giga text-warning">Harry Potter</h1>
+                                    <hr class="border-5 text-warning" />
+                                    <p class="medievalsharp-regular fs-2 text-warning" style="font-size: 16px">
+                                        Student of Gryffindor.Harry Potter is a brave young wizard with a lightning-shaped scar. He is known for his courage, loyalty, and strong sense of justice as he faces challenges and protects his friends from danger.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="slide" style="display: flex; height: 100vh; width: 100vw; background-color: rgb(15, 67, 3); align-items: center">
-                        <div class="slider">
-                            <img src="assets/draco_png.png" class="draco_png" />
-                            <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); color: #d4af37">
-                                <h1 class="fs-1 lexend-giga text-white">Draco Malfoy</h1>
-                                <hr class="border-5" />
-                                <p class="medievalsharp-regular fs-2" style="font-size: 16px">Student of Slytherin.Draco Malfoy is known as an arrogant, wealthy bully, and the son of a Death Eater. He frequently antagonizes Harry, relying on his pure-blood status.</p>
+                        <div class="slide" style="display: flex; width: 100vw; background-color: rgb(15, 67, 3); align-items: center">
+                            <div class="slider">
+                                <img src="assets/draco_png.png" class="draco_png" />
+                                <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); color: #d4af37">
+                                    <h1 class="fs-1 lexend-giga text-white">Draco Malfoy</h1>
+                                    <hr class="border-5" />
+                                    <p class="medievalsharp-regular fs-2" style="font-size: 16px">Student of Slytherin.Draco Malfoy is known as an arrogant, wealthy bully, and the son of a Death Eater. He frequently antagonizes Harry, relying on his pure-blood status.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="slide" style="display: flex; height: 100vh; width: 100vw; background-color: rgb(86, 70, 1); align-items: center">
-                        <div class="slider">
-                            <img src="assets/luna_png.png" />
-                            <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7)">
-                                <h1 class="fs-1 lexend-giga" style="color: #071878">Luna Lovegood</h1>
-                                <hr class="border-5" style="color: #071878" />
-                                <p class="medievalsharp-regular fs-2" style="font-size: 16px; color: #071878">
-                                    Student of Ravenclaw.Luna Lovegood is an eccentric, dreamy Ravenclaw student known for her unwavering authenticity, "dottiness," and unexpected wisdomloyal,friend to Harry Potter and member of Dumbledore's ArmyHarry.
-                                </p>
+                        <div class="slide" style="display: flex; width: 100vw; background-color: rgb(86, 70, 1); align-items: center">
+                            <div class="slider">
+                                <img src="assets/luna_png.png" />
+                                <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7)">
+                                    <h1 class="fs-1 lexend-giga" style="color: #071878">Luna Lovegood</h1>
+                                    <hr class="border-5" style="color: #071878" />
+                                    <p class="medievalsharp-regular fs-2" style="font-size: 16px; color: #071878">
+                                        Student of Ravenclaw.Luna Lovegood is an eccentric, dreamy Ravenclaw student known for her unwavering authenticity, "dottiness," and unexpected wisdomloyal,friend to Harry Potter and member of Dumbledore's ArmyHarry.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="slide" style="display: flex; height: 100vh; width: 100vw; background-color: rgb(15, 9, 0); align-items: center">
-                        <div class="slider">
-                            <img src="assets/cedric_png.png" />
-                            <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7)">
-                                <h1 class="fs-1 lexend-giga" style="color: rgb(209, 209, 4)">Cedric Diggory</h1>
-                                <hr class="border-5" style="color: rgb(209, 209, 4)" />
-                                <p class="medievalsharp-regular fs-2" style="font-size: 16px; color: rgb(209, 209, 4)">Student of Hufflepuff. As a sixth-year Prefect and Quidditch Captain ,Cedric Diggory is a popular Hogwarts champion in the Triwizard Tournamentbefore his tragic death.</p>
+                        <div class="slide" style="display: flex; width: 100vw; background-color: rgb(15, 9, 0); align-items: center">
+                            <div class="slider">
+                                <img src="assets/cedric_png.png" />
+                                <div class="text position-absolute text-white fw-bold text-left" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7)">
+                                    <h1 class="fs-1 lexend-giga" style="color: rgb(209, 209, 4)">Cedric Diggory</h1>
+                                    <hr class="border-5" style="color: rgb(209, 209, 4)" />
+                                    <p class="medievalsharp-regular fs-2" style="font-size: 16px; color: rgb(209, 209, 4)">Student of Hufflepuff. As a sixth-year Prefect and Quidditch Captain ,Cedric Diggory is a popular Hogwarts champion in the Triwizard Tournamentbefore his tragic death.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </section>
         <!-- More -->
         <section id="more" class="container py-5">
             <h1 class="text-center mb-5">More From The Wizarding World~</h1>
